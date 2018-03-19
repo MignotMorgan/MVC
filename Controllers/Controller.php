@@ -20,9 +20,8 @@ final class Controller
   {
     if(!isset($value))
       $value = new MyController();
-      return $value;
+    return $value;
   }
 }
 
-
- ?>
+?>
